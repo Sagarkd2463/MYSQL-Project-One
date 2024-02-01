@@ -35,7 +35,7 @@ const Student = () => {
                 </thead>
                 <tbody>
                     {
-                        student.map((data, i) => {
+                        student?.map((data, i) => {
                             return (
                                 <tr key={i}>
                                 <td>{data.Name}</td>
